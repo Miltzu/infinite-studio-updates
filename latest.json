@@ -1,0 +1,21 @@
+{
+    "app":  "Infinite Studio Observatory",
+    "channel":  "public",
+    "version":  "1.02",
+    "release":  "2026-11-15",
+    "tag":  "v1.02-beta-2026-11-15",
+    "date":  "2026-11-15",
+    "url":  "https://github.com/Miltzu/infinite-studio-observatory/releases/tag/v1.02-beta-2026-11-15",
+    "zip":  "InfiniteStudio-1.02-beta-2026-11-15-win64.zip",
+    "sha256":  "b55370bd9da593e5a0420ab8c8879660ffa1ce28bb6ad5fec077aa905e26fcaa",
+    "notes":  [
+                  "Komeetat (comets) on the sky map: today\u0027s bright comets with brightness, position, altitude and motion; C/2026 A2 (Bok) built in, all comets from the Minor Planet Center with one button, or a file without internet.",
+                  "Comet tracking: the mount follows the comet with tracking rates where the ASCOM driver allows it, otherwise it is re-centred every few minutes between exposures. STOP (Esc) ends it.",
+                  "Update notice: the program checks once a day whether a newer release is on GitHub and shows what is new. Nothing is downloaded or installed without you.",
+                  "Your own window layouts by name (the 💾 Layout button next to Mode), and a safe start with the default layout if the previous start did not finish.",
+                  "Crosshairs in the Capture panel: mouse crosshair with coordinates (X) and centre cross (Shift+X).",
+                  "Observatory 3D: flat panel position, FLAT and zenith poses, hour angle ±12 h, more measured dimensions and photos placed in the model.",
+                  "Run recorder on the phone: record the mount\u0027s exact positions during a test drive; flat panel on/off and brightness.",
+                  "Flat panel control: ASCOM CoverCalibrator and Alnitak serial protocol."
+              ]
+}
