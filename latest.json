@@ -1,21 +1,21 @@
 {
     "app":  "Infinite Studio Observatory",
     "channel":  "public",
-    "version":  "1.02",
-    "release":  "2026-11-15c",
-    "tag":  "v1.02-beta-2026-11-15c",
-    "date":  "2026-11-15",
-    "url":  "https://github.com/Miltzu/infinite-studio-observatory/releases/tag/v1.02-beta-2026-11-15c",
-    "zip":  "InfiniteStudio-1.02-beta-2026-11-15c-win64_15-11_0646.zip",
-    "sha256":  "3c22b86db5dccf2a2d18eb0d42f736653b4cbf44924adb8c40ae3a3af20c26fb",
+    "version":  "1.03",
+    "release":  "2026-11-16b",
+    "tag":  "v1.03-beta-2026-11-16b",
+    "date":  "2026-11-16",
+    "url":  "https://github.com/Miltzu/infinite-studio-observatory/releases/tag/v1.03-beta-2026-11-16b",
+    "zip":  "InfiniteStudio-1.03-beta-2026-11-16b-win64.zip",
+    "sha256":  "9f422d67bf5c9f0b2ec746f36e583deebb3dab6bf66462066ead51b311755e28",
     "notes":  [
-                  "Observatory 3D: the dome encoder from the zenith photos (it points at the camera) and a new measure camera – dome encoder (17 cm); the filter wheel now has its measured size (Ø 19 cm, was 43 cm).",
-                  "Download and install without a GitHub account: with the maintainer\u0027s update key the update notice has ⬇ Download and install. The zip is checked against its SHA-256 and installed like a zip update; nothing is deleted.",
-                  "Komeetat (comets) on the sky map: today\u0027s bright comets with brightness, position, altitude and motion; C/2026 A2 (Bok) built in, all comets from the Minor Planet Center with one button, or a file without internet.",
-                  "Comet tracking: the mount follows the comet with tracking rates where the ASCOM driver allows it, otherwise it is re-centred every few minutes between exposures. STOP (Esc) ends it.",
-                  "Update notice: the program checks once a day whether a newer release is on GitHub and shows what is new. Nothing is downloaded or installed without you.",
-                  "Your own window layouts by name (the 💾 Layout button next to Mode), and a safe start with the default layout if the previous start did not finish.",
-                  "Crosshairs in the Capture panel: mouse crosshair with coordinates (X) and centre cross (Shift+X).",
-                  "Observatory 3D: flat panel position, FLAT and zenith poses, hour angle ±12 h, more measured dimensions and photos placed in the model."
+                  "Imaging calendar (Tools → 📅): imaging nights, projects and plans, read from the pictures – now also Nikon NEF pictures and SER videos.",
+                  "Observer\u0027s name: the program asks at start-up who is imaging (optional; Skip keeps the name, earlier names can be picked, the question can be turned off in Tools → ⚙ Settings → General). The night folder becomes 2026-11-16_Name, the FITS header gets OBSERVER, and the calendar can show one observer\u0027s nights.",
+                  "Connected devices at a glance: a green frame round the panel (blue in night mode, yellow while connecting), a dot in its title and a line under its toolbar button.",
+                  "Comets as targets: by name in the Telescope panel, in the sequencer, on the phone\u0027s sky map (☄ button) and in the target assistant (Comets filter, plans with 60 s exposures). The comet\u0027s place is computed when it is used.",
+                  "Second main camera: a monitor window can take a FITS series (📷 Capture a series) at the same time as the main camera – cooled cameras 16-bit, video cameras raw frames.",
+                  "⚙ Settings (formerly Extra) on pages of their own: General, Safety, Remote, Devices and program.",
+                  "Astrometry: ✎ Annotate in its own window with a preview (Accept / Cancel): RA/Dec grid, north and east arrows, scale bar, a target information box with selectable lines. ⭐ Comparison stars from APASS DR9, Gaia DR3 or AAVSO\u0027s sequence: a supernova\u0027s or variable star\u0027s magnitude from several comparison stars (ensemble), and an AAVSO extended report.",
+                  "Terms of use: final version 1.1 (no longer a draft)."
               ]
 }
